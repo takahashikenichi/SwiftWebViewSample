@@ -35,7 +35,7 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate 
             wkWebView.setTranslatesAutoresizingMaskIntoConstraints(false)
             
             // 生成したUIW絵bViewインスタンスをcontainerにサブビューとして追加する
-            container.addSubview(wkWebView!)
+            container.addSubview(wkWebView)
             setSameBoundsConstraints(container, child: wkWebView)
             
             // デリゲートとしてself(このViewController）を設定する
@@ -49,7 +49,7 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate 
             webView.setTranslatesAutoresizingMaskIntoConstraints(false)
             
             // 生成したUIW絵bViewインスタンスをcontainerにサブビューとして追加する
-            container.addSubview(webView!)
+            container.addSubview(webView)
             setSameBoundsConstraints(container, child: webView)
             
             // デリゲートとしてself(このViewController）を設定する
