@@ -3,4 +3,4 @@
 
 ## 書籍との異なる点
 - WKNavigationDelegateプロトコルのdelegateメソッドの引数をスコープを考慮してwkWebView: WKWebViewとした
-- containerへのaddSubviewの引数webViewもしくはwkWebViewをアンラップした
+- ~~containerへのaddSubviewの引数webViewもしくはwkWebViewをアンラップした~~
